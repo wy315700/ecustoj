@@ -1,0 +1,171 @@
+﻿div.header,div.footer{
+width:100%;
+}
+div.footer, .header table.table_list, .wide_list, h2, .mid{
+text-align:center;
+}
+
+div.wapper{
+background-color:#ccf;
+padding-left:5px;
+}
+
+/* 代码着色风格切换器样式 */
+div.hl_ss{
+	
+}
+div.hl_ss span{
+	font-weight: bold;
+}
+div.hl_ss ul{
+	padding: 0;
+	margin: 0 0 0 1px;
+}
+div.hl_ss ul li{
+	display: inline;
+	cursor: pointer;
+	border-bottom: 1px dashed blue;
+	color: Gray;
+	margin-left: 20px;
+}
+div.hl_ss ul li.current{
+	border-bottom: none;
+	cursor: default;
+	font-weight: bolder;
+	color: Blue;
+}
+
+#highlight_code pre, pre.mail{
+	white-space: pre;
+    overflow: auto;
+    padding: 10px;
+    background-color: #CCF;
+    border-radius: 5px;
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+h1{
+margin:3px;
+}
+
+table{
+border-collapse:collapse;
+}
+
+table.table_list{
+width:100%;
+border:1px #fff solid;
+background-color:#caf;
+}
+
+div.problem_content{
+padding:5px;
+background-color:#caf;
+}
+
+.table_list th{
+background-color:#538;
+color:#fff;
+overflow:hidden;
+}
+
+.header .table_list td:hover, .wide_list tr:hover, .row_hover tr:hover{
+background-color:#99f;
+}
+
+/*div.ascend, div.descend{
+border-left:0.5em solid #538;
+border-right:0.5em solid #538;
+display:inline;
+position:relative;
+font-size:50%;
+}
+
+div.ascend{
+border-bottom:1em solid #caf;
+top:-1.5em;
+}
+
+div.descend{
+border-top:1em solid #caf;
+top:1em;
+}*/
+
+a, table.tag a{
+text-decoration:none;
+text-transform:none;
+color:blue;
+}
+
+a:hover{
+color:red;
+text-decoration:underline;
+}
+
+a.user, a.problem{
+color:black;
+font-weight:bold;
+}
+
+a.user:hover{
+color:black;
+font-weight:bold;
+}
+th a{
+color:yellow;
+}
+
+.bottomline{
+border-bottom:1px #000 solid;
+}
+
+span.no_content{
+color:#555;
+}
+span.has_content{
+font-weight:bold;
+color:#538;
+}
+code span{
+font-size:100%;
+}
+
+h2{
+color:#538;
+}
+
+font.good{
+color:blue;
+}
+font.bad{
+color:red;
+}
+font.not_bad,font.not_bad a{
+color:green;
+}
+
+textarea{
+width:600px;
+height:120px;
+}
+
+.subtitle{
+color:#339900;
+font-size:28px;
+font-weight:300;
+}
+
+.subtitle a, a.edit{
+font-size:60%;
+}
+
+table.tag td{
+padding:0;
+}
+table.tag td font{
+padding:2px;
+font-size:80%;
+}
+

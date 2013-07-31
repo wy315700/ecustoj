@@ -1,0 +1,18 @@
+﻿div.wapper {
+	background-color: rgb(238, 204, 238);
+}
+.table_list th {
+	background-color: rgb(85, 51, 136);
+}
+table.table_list {
+	background-color: rgb(238, 204, 255);
+}
+div.problem_content {
+	background-color: rgb(238, 204, 255);
+}
+.header .table_list td:hover {
+	background-color: rgb(187, 204, 255);
+}
+.row_hover tr:hover {
+	background-color: rgb(187, 204, 255);
+}

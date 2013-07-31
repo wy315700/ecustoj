@@ -1,0 +1,15 @@
+name: ecustoj
+version: 1
+handle:
+- expire: if( path ~ "js" ) time 604800
+- expire: if( path ~ "css" ) time 604800
+- expire: if( path ~ "jpg" ) time 604800
+- expire: if( path ~ "png" ) time 604800
+- expire: if( path ~ "gif" ) time 604800
+- expire: if( path ~ "jpeg" ) time 604800
+
+- compress: if ( out_header["Content-Length"]>=50 ) compress
+
+- compress: if ( out_header["Content-type"] ~ "text/css" ) compress
+- compress: if ( out_header["Content-type"] ~ "text/javascript" ) compress
+- compress: if ( out_header["Content-type"] ~ "text/html" ) compress
